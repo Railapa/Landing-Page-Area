@@ -15,7 +15,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 0 0 1rem 1rem;
 }
 
 nav{
@@ -440,3 +442,150 @@ hr{
     font-size: 0.7rem;
 }
 
+.map{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 1rem;
+}
+
+.map-header{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.map-header h2{
+    font-family: "Playfair Display", serif;
+    font-size: 2.1rem;
+    font-weight: 500;
+}
+
+.map-header-link{
+    display: flex;
+}
+
+.map-header-link a{
+    text-decoration: none;
+    background-color: #DFECC6;
+    padding: 1rem 1.5rem;
+    color: #000;
+    font-weight: 700;
+    border-radius: 1.5rem;
+    transition: all 0.5s ease;
+}
+
+.map-header-link a:hover{
+    transform: scale(105%);
+}
+
+.map-infos{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 4rem;
+}
+
+.map-infos-started{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.map-infos-started span{
+    padding-bottom: 1.5rem;
+    font-size: 4rem;
+    color: #969696;
+    font-weight: 400;
+}
+
+.map-infos-started h3{
+    font-family: "Playfair Display", serif;
+    font-size: 1.2rem;
+}
+
+.map-infos-started p{
+    color: #6F6F6F;
+}
+
+.img-hero4{
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.connect{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: center;
+}
+
+.connect h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.connect p{
+    padding: 0 1rem;
+    color: #6F6F6F;
+}
+
+.connect-link{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center;
+}
+
+.connect a{
+    text-decoration: none;
+    background-color: #485C11;
+    padding: 1rem 5.5rem;
+    color: #fff;
+    border-radius: 2rem;
+    transition: all 0.5s ease;
+}
+
+.connect a:hover{
+    background-color: #6a881a;
+    transform: scale(105%);
+}
+
+footer{
+    padding: 1rem;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8rem;
+    border-top: 1px solid #6F6F6F;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.footer-links a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+.footer-links a:hover{
+    text-decoration: underline;
+}
+
+.img-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-footer p{
+    font-size: 0.8rem;
+}
