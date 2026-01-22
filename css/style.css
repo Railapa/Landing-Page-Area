@@ -15,19 +15,18 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.2rem;
+    padding: 1rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 0 0 1rem 1rem;
 }
 
 nav{
     display: none;
-    gap: 1rem;
-    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 nav a{
-    font-size: 0.65rem;
+    font-size: 1rem;
     text-decoration: none;
     color: #000;
     font-weight: 600;
@@ -40,10 +39,10 @@ nav a:hover{
 .link-principal-header a{
     text-decoration: none;
     background-color: #485C11;
-    padding: 0.5rem;
+    padding: 1rem 2rem;
     color: #fff;
-    border-radius: 1rem;
-    font-size: 0.8rem;
+    border-radius: 2rem;
+    font-size: 1rem;
     transition: all 0.5s ease;
     display: none;
 }
@@ -73,14 +72,24 @@ main{
     font-weight: 400;
 }
 
-.img-celular-main{
+.img-dispositivo-main{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
 }
 
-.img-celular-main img{
+.img-celular-main{
+    width: 90%;
+}
+
+.img-ipad-main{
+    display: none;
+    width: 90%;
+}
+
+.img-pc-main{
+    display: none;
     width: 90%;
 }
 
@@ -91,8 +100,17 @@ main{
     margin-top: 3rem;
 }
 
-.patrocinios img{
+.img-patrocinios-celular{
     width: 95%;
+}
+
+.img-patrocinios-ipad{
+    display: none;
+}
+
+.img-patrocinios-pc{
+    
+    display: none;
 }
 
 .benefits{
@@ -199,8 +217,16 @@ hr{
     align-items: center;
 }
 
-.hero-img1 img{
+.hero-img1-celular{
     width: 90%;
+}
+
+.hero-img1-ipad{
+    display: none;
+}
+
+.hero-img1-pc{
+    display: none;
 }
 
 .big-picture{
@@ -292,8 +318,16 @@ hr{
     padding-top: 6.5rem;
 }
 
-.hero-img2 img{
+.hero-img2-celular{
     width: 95%;
+}
+
+.hero-img2-ipad{
+    display: none;
+}
+
+.hero-img2-pc{
+    display: none;
 }
 
 .choose-area{
@@ -411,9 +445,17 @@ hr{
     justify-content: center;
 }
 
-.img-hero3 img{
+.hero-img3-celular{
     width: 90%;
     margin: 0 auto;
+}
+
+.hero-img3-ipad{
+    display: none;
+}
+
+.hero-img3-pc{
+    display: none;
 }
 
 .john-smith-paragrafo{
@@ -513,6 +555,14 @@ hr{
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
+}
+
+.img-hero4-ipad{
+    display: none;
+}
+
+.img-hero4-pc{
+    display: none;
 }
 
 .connect{

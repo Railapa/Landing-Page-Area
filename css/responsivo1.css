@@ -1,0 +1,67 @@
+@media(min-width:1000px) {
+
+    header {
+        box-shadow: 0 0 0;
+        border-radius: 0;
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .img-hamburguer {
+        display: none;
+    }
+
+    .link-principal-header {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .link-principal-header a {
+        display: flex;
+    }
+
+    .img-logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .img-logo,
+    .link-principal-header {
+        flex: 1;
+    }
+
+    .links-header {
+        display: flex;
+        justify-content: center;
+        flex: 2;
+    }
+
+    .header-main h1 {
+        font-size: 10.5rem;
+    }
+
+    .img-celular-main {
+        display: none;
+    }
+
+    .img-ipad-main {
+        display: block;
+        width: 87vw;
+    }
+
+    .img-patrocinios-ipad {
+        display: block;
+        width: 90vw;
+    }
+
+    .img-patrocinios-celular {
+        display: none;
+    }
+
+   
+    .benefits-infos{
+       
+    }
+}
