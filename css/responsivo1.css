@@ -61,7 +61,228 @@
     }
 
    
-    .benefits-infos{
-       
+    .benefits-header{
+       text-align: center;
     }
+
+    .benefits-header span{
+        font-size: 1rem;
+    }
+
+    .benefits-header h2{
+        font-size: 4rem;
+    }
+
+    .benefits-header p{
+        font-size: 1.2rem;
+    }
+
+    .benefits-infos{
+        padding-top: 4rem;
+        padding-bottom: 10rem;
+    }
+
+    .benefits-infos p{
+        font-size: 1.1rem;
+    }
+
+    .benefits-infos h4{
+        font-size: 2.5rem;
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+    }
+
+    .benefits-amplify{
+        gap: 2.5rem;
+    }
+
+    .benefits-control{
+        gap: 2.5rem;
+    }
+
+    .benefits-remove{
+        gap: 2.5rem;
+    }
+
+    .benefits-growth{
+        gap: 2.5rem;
+    }
+
+    .img-benefits-amplify img{
+        width: 40px;
+    }
+
+    .img-benefits-control img{
+        width: 40px;
+    }
+
+    .img-remove-control img{
+        width: 40px;        
+    }
+
+    .img-growth img{
+        width: 40px;
+    }
+
+    .hero-img1-celular{
+        display: none;
+    }
+
+    .hero-img1-ipad{
+        display: block;
+        width: 95%;
+        padding-bottom: 7rem;
+    }
+
+    .big-picture-header h2{
+        font-size: 4rem;
+    }
+
+    .big-picture-header p{
+        font-size: 1.2rem;
+    }
+
+    .big-picture-responsivo span{
+        font-size: 2rem;
+    }
+
+    .big-picture-responsivo p{
+        font-size: 1.2rem;
+        padding-left: 1rem;
+    }
+
+    .big-picture-infos{
+        gap: 1rem;
+    }
+
+    .hero-img2-celular{
+        display: none;
+    }
+
+    .hero-img2-ipad{
+        display: block;
+        width: 95%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .choose-area{
+        padding-bottom: 5rem;
+    }
+
+    .choose-area h2{
+        font-size: 2.8rem;
+    }
+    
+    .choose-area p{
+        font-size: 1rem;
+    }
+
+    .choose-area-header{
+        padding-bottom: 2.5rem;
+    }
+
+    .choose-area-header span{
+        font-size: 1rem;
+    }
+
+    .choose-area-header h2{
+        font-size: 4.5rem;
+    }
+
+    .choose-area-header p{
+        font-size: 1.2rem;
+    }
+
+    .choose-area-infos{
+        width: 23%;
+        height: 50vh;
+    }
+
+    .choose-area-responsivo{
+        display: flex;
+    }
+
+    .hero-img3-celular{
+        display: none;
+    }
+
+    .hero-img3-ipad{
+        display: block;
+        width: 95%;
+        padding-bottom: 5rem;
+    }
+
+    .john-smith-paragrafo p{
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .autor-paragrafo h3{
+        font-size: 2rem;
+    }
+
+    .autor-paragrafo span{
+        font-size: 1.2rem;
+    }
+
+    .john-smith{
+        padding-bottom: 5rem;
+    }
+
+    .map-header h2{
+        font-size: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .map-infos span{
+        font-size: 4rem;
+    }
+
+    .map-infos h3{
+        font-size: 2.5rem;
+    }
+
+    .map-infos p{
+        font-size: 1.2rem;
+    }
+
+    .map-infos{
+        padding-bottom: 5rem;
+    }
+
+    .img-hero4-celular{
+        display: none;
+    }
+
+    .img-hero4-ipad{
+        display: block;
+        width: 95%;
+        padding-bottom: 5rem;
+    }
+
+    .connect h2{
+        font-size: 5rem;
+    }
+
+    .connect p{
+        font-size: 1.3rem;
+    }
+
+    .connect-link a{
+        font-size: 1.3rem;
+    }
+
+    footer a{
+        font-size: 1.2rem;
+    }
+
+    .img-footer img{
+        width: 45px;
+    }
+
+    .img-footer p{
+        font-size: 1.2rem;
+    }
+    
 }
