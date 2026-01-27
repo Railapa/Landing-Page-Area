@@ -9,13 +9,13 @@
 body{
     font-family: "Inter", sans-serif;
     height: 100vh;
+    padding: 1.3rem;
 }
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 0 0 1rem 1rem;
 }
