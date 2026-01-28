@@ -70,7 +70,7 @@
     }
 
     .benefits-header h2{
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     .benefits-header p{
@@ -83,11 +83,11 @@
     }
 
     .benefits-infos p{
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .benefits-infos h4{
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         font-family: "Inter", sans-serif;
         font-weight: 400;
     }
@@ -130,12 +130,13 @@
 
     .hero-img1-ipad{
         display: block;
-        width: 95%;
+        width: 90vw;
         padding-bottom: 7rem;
     }
 
     .big-picture-header h2{
         font-size: 4rem;
+        padding-left: 0.6rem;
     }
 
     .big-picture-header p{
@@ -147,7 +148,7 @@
     }
 
     .big-picture-responsivo p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding-left: 1rem;
     }
 
@@ -214,16 +215,16 @@
     }
 
     .john-smith-paragrafo p{
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding-bottom: 2rem;
     }
 
     .autor-paragrafo h3{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .autor-paragrafo span{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .john-smith{
@@ -231,7 +232,7 @@
     }
 
     .map-header h2{
-        font-size: 3rem;
+        font-size: 4rem;
         padding-bottom: 1.5rem;
     }
 
@@ -244,7 +245,7 @@
     }
 
     .map-infos p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .map-infos{
@@ -263,6 +264,7 @@
 
     .connect h2{
         font-size: 5rem;
+        font-weight: 300;
     }
 
     .connect p{

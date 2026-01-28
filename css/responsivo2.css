@@ -1,0 +1,73 @@
+@media(min-width:1280px){
+    .img-ipad-main{
+        display: none;
+    }
+
+    .img-pc-main{
+        display: block;
+        width: 90vw;
+    }
+
+    .img-patrocinios-ipad{
+        display: none;
+    }
+
+    .img-patrocinios-pc{
+        display: block;
+        width: 90vw;
+    }
+
+    .hero-img1-ipad{
+        display: none;
+    }
+
+    .hero-img1-pc{
+        display: block;
+        width: 90vw;
+        padding-bottom: 5rem;
+    }
+
+    .big-picture{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero-img2-ipad{
+        display: none;
+    }
+
+    .hero-img2-pc{
+        display: block;
+        width: 40vw;
+    }
+
+    .john-smith{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .john-smith-paragrafo{
+        width: 45vw;
+    }
+
+    .hero-img3-ipad{
+        display: none;
+    }
+
+    .hero-img3-pc{
+        display: block;
+        width: 37vw;
+        padding-left: 3rem;
+    }
+
+    .img-hero4-ipad{
+        display: none;
+    }
+
+    .img-hero4-pc{
+        display: block;
+        width: 90vw;
+    }
+}
